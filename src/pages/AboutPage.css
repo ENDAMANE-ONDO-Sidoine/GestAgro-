@@ -1,0 +1,6 @@
+/* AboutPage.css */
+
+.iconHover:hover {
+    transform: scale(1.2); /* Agrandir légèrement l'icône */
+    transition: transform 0.3s ease-in-out; /* Transition douce */
+}

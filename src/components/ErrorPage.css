@@ -1,0 +1,25 @@
+@keyframes moveBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -100% 0; }
+  }
+  
+  
+  
+  .animatedBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./assets/agriculture-background.jpg') repeat-x;
+    background-size: cover;
+    animation: moveBackground 20s linear infinite;
+    z-index: -1;
+  }
+  
+  .errorContent {
+    position: relative;
+    z-index: 6;
+    color: #fff; /* Assurez-vous que le texte est lisible sur l'arrière-plan animé */
+  }
+  
